@@ -19,13 +19,6 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 194.38.11.86
-  port: 65443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 153.80.241.206
   port: 8444
   udp: true
@@ -39,7 +32,25 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  server: 77.110.105.122
+  port: 443
+  udp: true
+  type: vless
+  uuid: 019fbe0f-2d9f-4b89-9f81-e1e36129892a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: co-pl.speedtec.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 185.227.174.29
+  port: 8389
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: EwUhOxemnPqaUvJgq4S8ug
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 193.233.74.6
   port: 8444
   udp: true
@@ -54,14 +65,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 194.87.118.184
-  port: 2053
-  udp: true
-  type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: 'off'
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
