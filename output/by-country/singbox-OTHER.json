@@ -6,19 +6,14 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.19.12.94",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false
-      },
+      "server": "104.21.64.198",
+      "server_port": 2095,
+      "uuid": "73796e63-0000-4000-8000-000000000008",
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/sync",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
         }
       }
     },
