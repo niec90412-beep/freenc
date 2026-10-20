@@ -5,35 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: guanwang.awsno.com
-  port: 443
+  server: www.asamping.ir
+  port: 2095
   udp: true
   type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: a55cdc40-5af5-4f02-9a46-41685120fe6f
   alterId: 0
   cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /
     headers:
-      Host: guanwang.awsno.com
+      Host: www.asamping.ir
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: guanwang.awsno.com
+  server: cf.0sm.com
   port: 443
   udp: true
   type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   tls: true
-  servername: guanwang.awsno.com
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
