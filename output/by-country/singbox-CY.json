@@ -4,21 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "108.162.194.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false
-      },
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
+      "server": "5.253.29.254",
+      "server_port": 14430,
+      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/vless",
         "headers": {
-          "Host": "www.pleadcourt.org"
+          "Host": "5.253.29.254"
         }
       }
     },
@@ -27,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
