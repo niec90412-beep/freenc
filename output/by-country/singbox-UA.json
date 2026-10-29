@@ -4,18 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
-      "server": "176.114.95.242",
-      "server_port": 443,
-      "password": "UAKWGor-h0woFsxKSWK92HptcM0g2k2h",
+      "type": "vless",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+      "server": "216.24.57.225",
+      "server_port": 2083,
+      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
       "tls": {
         "enabled": true,
-        "server_name": "lt-1.1984.love",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
+        "server_name": "pol.netvia.ir",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss",
+        "headers": {
+          "Host": "pol.netvia.ir"
         }
       }
     },
@@ -24,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
