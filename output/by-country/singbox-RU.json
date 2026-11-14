@@ -49,33 +49,18 @@
     {
       "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "server": "185.22.153.117",
       "server_port": 18443,
       "method": "aes-256-gcm",
       "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "185.86.147.175",
-      "server_port": 443,
-      "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
-      "tls": {
-        "enabled": true,
-        "server_name": "bhjolq0d0l.flowersgood.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/service/telemetry/045d381f1166/",
-        "headers": {
-          "Host": "bhjolq0d0l.flowersgood.top"
-        }
-      }
     },
     {
       "type": "vless",
