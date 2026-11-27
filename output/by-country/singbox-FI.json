@@ -6,23 +6,14 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "92.38.145.145",
-      "server_port": 443,
-      "uuid": "3f734801-dacb-418f-b1e7-340427940c77",
-      "tls": {
-        "enabled": true,
-        "server_name": "gcore.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "193.188.21.253",
+      "server_port": 14430,
+      "uuid": "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55",
       "transport": {
         "type": "ws",
-        "path": "/dl",
+        "path": "/vless",
         "headers": {
-          "Host": "app1.gptban.com"
+          "Host": "193.188.21.253"
         }
       }
     },
